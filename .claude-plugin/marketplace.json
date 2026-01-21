@@ -1,0 +1,18 @@
+{
+  "name": "wm-marketplace",
+  "owner": {
+    "name": "wm"
+  },
+  "metadata": {
+    "description": "Personal Claude Code plugin marketplace for wm",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "wm-tools",
+      "description": "Personal Claude Code plugins for wm",
+      "source": "./plugins/wm-tools",
+      "version": "1.0.2"
+    }
+  ]
+}
